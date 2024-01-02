@@ -59,3 +59,21 @@ const questions = [
     }
 ];
 
+//creates the README.md file
+function writeFile(file, data) {
+    return fs.writeFileSync(path.join(process.cwd(), file), data)
+};
+
+//function to be called to generate the README
+function generate() {
+    fs.mkdir('README', (e) => {
+        if (e) throw e;
+    });
+
+    inquirer.prompt(questions).then((answers) => {
+        console.log('Generating README.md... Please Wait...');
+        writeFile('./README/README.md', generateMd({ ...answers }));
+    });
+};
+
+generate();
