@@ -1,13 +1,13 @@
 
-# test
+# Sample Text
 
 ## Description
-test
+Sample Text
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Motivation
-test
+Sample Text
 
 ## Table of Contents
 - [Installation](#installation)
@@ -17,22 +17,22 @@ test
 - [Questions](#questions)
 
 ## Installation
-test
+Sample Text
 
 ## Usage
-test
+Sample Text
 
 ## Credits
-test
+Sample Text
 
 ## Licenses
-This license is covered by the MIT license.
+This project is covered by the Apache 2.0 license.
 
 ## Testing
-test
+Sample Text
 
 ## Questions 
 If you have any questions or would like to reach out for any reason, please feel free!
-My Email: test
+My Email: Mail@mail.com
 
-Github: test (https://github.com/test)
+Github: g-barrett (https://github.com/g-barrett)
