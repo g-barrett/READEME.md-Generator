@@ -1,8 +1,10 @@
+//packages needed for application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 const generateMd = require("./utils/generateMarkdown");
 
+//questions prompted in terminal when generating README file
 const questions = [
     {
         type: 'input',
